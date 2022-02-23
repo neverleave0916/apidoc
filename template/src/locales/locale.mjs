@@ -22,6 +22,7 @@ import { ru } from './ru.mjs';
 import { tr } from './tr.mjs';
 import { vi } from './vi.mjs';
 import { zhCn } from './zh_cn.mjs';
+import { zhTw } from './zh_tw.mjs';
 
 const locales = {
   ca: ca,
@@ -38,7 +39,8 @@ const locales = {
   ru: ru,
   tr: tr,
   vi: vi,
-  zh: zhCn,
+  zh-CN: zhCn,
+  zh-TW: zhTw
 };
 
 // e.g. en fr pl
